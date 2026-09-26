@@ -5,7 +5,7 @@ function UserList() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch("Userlist.json")
+    fetch("/Userlist.json")
       .then((response) => response.json())
       .then((data) => setUsers(data))
       .catch((error) => console.log(error));
