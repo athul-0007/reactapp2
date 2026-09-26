@@ -1,0 +1,213 @@
+.student-container {
+  width: 100%;
+}
+
+/* HEADER */
+
+.student-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.student-header h2 {
+  font-size: 28px;
+}
+
+/* ADD STUDENT BUTTON */
+
+.add-student-btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4e5e5c;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-student-btn:hover {
+  background-color: #000000;
+  color: white;
+
+  transform: scale(1.1)
+}
+
+/* POPUP BACKGROUND */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+}
+
+/* FORM */
+
+.student-form-box {
+  position: relative;
+
+  width: 350px;
+
+  background-color: white;
+
+  padding: 30px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.student-form-box h2 {
+  margin-bottom: 20px;
+}
+
+.student-form-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-form-box label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.student-form-box input {
+  padding: 11px;
+
+  margin-bottom: 15px;
+
+  border: 2px solid #ccc;
+
+  border-radius: 5px;
+
+  outline: none;
+}
+
+.student-form-box input:focus {
+  border-color: #06f70e;
+}
+
+/* SUBMIT */
+
+.submit-btn {
+  padding: 11px;
+
+  border:none ;
+
+  border-radius: 5px;
+
+  background-color: #4e5e5c;
+
+  color: white;
+
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color:black
+  
+}
+
+/* CLOSE */
+
+.close-btn {
+  position: absolute;
+
+  top: 10px;
+  right: 15px;
+
+  border: none;
+
+  background: none;
+
+  font-size: 28px;
+
+  cursor: pointer;
+
+  color: #555;
+}
+
+.close-btn:hover {
+  color: red;
+}
+
+/* TABLE */
+
+.student-table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  background-color: white;
+}
+
+.student-table th {
+  background-color:  #4e5e5c;
+
+  color: white;
+
+  padding: 12px;
+
+  text-align: left;
+}
+
+.student-table td {
+  padding: 12px;
+
+  border-bottom: 1px solid #ddd;
+}
+
+/* EDIT */
+
+.edit-btn {
+  background-color: #fefa06;
+
+  color: rgb(0, 0, 0);
+
+  border: none;
+
+  padding: 7px 12px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  margin-right: 8px;
+}
+
+/* DELETE */
+
+.delete-btn {
+  background-color: #e74c3c;
+
+  color: white;
+
+  border: none;
+
+  padding: 7px 12px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #ced506;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}

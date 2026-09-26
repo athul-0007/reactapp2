@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Arjun Kumar",
+    "email": "arjun@gmail.com",
+    "age": 21,
+    "course": "BCA",
+    "image": "https://api.dicebear.com/9.x/adventurer/png?seed=Zoro"
+  },
+  {
+    "id": 2,
+    "name": "Rahul Raj",
+    "email": "rahul@gmail.com",
+    "age": 22,
+    "course": "BCA",
+    "image": "https://i.pinimg.com/736x/26/73/3b/26733bf6c29e9c42adb3c4927bd56940.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Anjali S",
+    "email": "anjali@gmail.com",
+    "age": 20,
+    "course": "BSc Computer Science",
+    "image": "https://api.dicebear.com/9.x/adventurer/png?seed=Orihime"
+  },
+  {
+    "id": 4,
+    "name": "Vishnu Prasad",
+    "email": "vishnu@gmail.com",
+    "age": 21,
+    "course": "BCA",
+    "image": "https://i.pinimg.com/736x/37/43/62/374362767f496cefbf2f72869a11bbac.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Meera Thomas",
+    "email": "meera@gmail.com",
+    "age": 20,
+    "course": "BSc IT",
+    "image": "https://i.pravatar.cc/150?img=5"
+  },
+  {
+    "id": 6,
+    "name": "Adithya Mohan",
+    "email": "adithya@gmail.com",
+    "age": 22,
+    "course": "BCA",
+    "image": "https://i.pravatar.cc/150?img=6"
+  },
+  {
+    "id": 7,
+    "name": "Neha Joseph",
+    "email": "neha@gmail.com",
+    "age": 21,
+    "course": "BSc Computer Science",
+    "image": "https://i.pinimg.com/736x/41/4b/c5/414bc5d93ed7c13f6325e4722f25d095.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Akshay Menon",
+    "email": "akshay@gmail.com",
+    "age": 23,
+    "course": "BCA",
+    "image": "https://i.pinimg.com/736x/04/17/7c/04177cdfbd2d48a3bf8dfec19acdaa77.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Fathima N",
+    "email": "fathima@gmail.com",
+    "age": 20,
+    "course": "BSc IT",
+    "image": "https://i.pravatar.cc/150?img=9"
+  },
+  {
+    "id": 10,
+    "name": "Nikhil Das",
+    "email": "nikhil@gmail.com",
+    "age": 22,
+    "course": "BCA",
+    "image": "https://i.pravatar.cc/150?img=10"
+  }
+]
